@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC"-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtm">
+<head>
+	<title>users.html</title>
+</head>
+<body style="background-color: black; color:white;">
+	<script type="text/javascript">
+
+		var bordersize = prompt("Select a table border size \n"+
+								"0 (no border)\n"+
+								"1 (1 pixel border)\n"+
+								"4 (4 pixel border)\n");
+			switch(bordersize){
+			case "0":document.write("<table>");
+					 break;
+			case "1":document.write("<table border='1'>");
+					 break;
+			case "4":document.write("<table border='4'>");
+					 break;
+			default:document.write("Error - Invalid choice: ",bordersize,"<br>");
+					 break;
+		}
+
+		document.write("<caption>FOOD</caption>");
+		document.write("<tr>",
+					   "<th/>",
+					   "<th>Morning Breakfast</th>",
+					   "<th>Evening Snacks</th>",
+					   "</tr>",
+                                           "<tr>",
+					   "<th>Sunday</th>",
+					   "<th>Meals</th>",
+					   "<th>lays</th>",
+					   "</tr>",
+					   "<tr>",
+					   "<th>Monday</th>",
+					   "<th>Idly</th>",
+					   "<th>poori</th>",
+					   "</tr>",
+					   "<tr>",
+					   "<th>Tuesday</th>",
+					   "<th>Dosa</th>",
+					   "<th>pani puri</th>",
+					   "</tr>",
+					   "<tr>",
+					   "<th>Wednesday</th>",
+					   "<th>Chapathi</th>",
+					   "<th>rice</th>",
+					   "</tr>",
+					   "<tr>",
+					   "<th>Thursday</th>",
+					   "<th>Pulav</th>",
+					   "<th>paneer</th>",
+					   "</tr>",
+                                            "<tr>",
+					   "<th>Friday</th>",
+					   "<th>Meals</th>",
+					   "<th>podi</th>",
+					   "</tr>",
+                                           "<tr>",
+					   "<th>Saturday</th>",
+					   "<th>Masala Dosa</th>",
+					   "<th>nippat</th>",
+					   "</tr>",
+"</table>");
+</script>
+</body>
